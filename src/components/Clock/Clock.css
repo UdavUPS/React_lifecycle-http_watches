@@ -1,0 +1,60 @@
+.clock-box {
+    margin-bottom: 1%;
+}
+
+.city-name {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .hour-hand,
+  .minute-hand,
+  .second-hand {
+    position: absolute;
+    left: 100px;
+    transform-origin: bottom center;
+  }
+  
+  .hour-hand {
+    width: 8px;
+    height: 60px;
+    background-color: #000;
+    top: 50px;
+    /* margin-left: -4px; */
+  }
+  
+  .minute-hand {
+    width: 4px;
+    height: 80px;
+    background-color: #333;
+    top: 25px;
+    /* margin-left: -2px; */
+  }
+  
+  .second-hand {
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    top: 0;
+    /* margin-left: -1px; */
+  }
+
+  .delSim {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 77%;
+    margin-top: -10%;
+  }

@@ -1,0 +1,28 @@
+.app-box {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: 0 auto;
+  /* padding-top: 5%; */
+}
+
+.app-box__form {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  
+}
+
+.app-box__form__elem__input {
+  font-size: 1.5rem;
+  /* margin-left: 3%; */
+}
+
+.app-box__clocs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
