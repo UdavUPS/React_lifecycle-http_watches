@@ -1,6 +1,3 @@
-/* import { useState } from 'react'
-import reactLogo from '../../assets/react.svg'
-import viteLogo from '/vite.svg' */
 import { useState, useRef, useEffect } from 'react';
 import uniqid from 'uniqid';
 import './App.css'
@@ -36,12 +33,9 @@ function App() {
   function closeClock(e) {
     let clock = e.target.parentElement.parentElement;
     if (clock.classList.contains('delSim')) {
-      /* console.log('Да'); */
       clock = clock.parentElement;
     }
-    /* console.log(clock); */
     clock.remove();
-    /* ReactDOM.unmountComponentAtNode(clock.remove()) */
   }
 
 
